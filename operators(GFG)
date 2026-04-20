@@ -1,0 +1,19 @@
+class Solution:
+    def operations(self, x, y):
+        
+        p = x+y
+        
+        # Perform subtraction
+        q = x-y
+        
+        # Perform multiplication
+        r = x*y
+        
+        # Perform division (integer division like Java)
+        s = x//y
+        
+        # Perform modulo
+        t = x%y
+
+        # Print result
+        print(p, q, r, s, t)
