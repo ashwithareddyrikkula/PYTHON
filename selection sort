@@ -1,0 +1,10 @@
+n=list(map(int,input("entyer the number:").split()))
+for i in range(len(n)):
+    min_pos=i
+    for j in range(i+1,len(n)):
+        if n[j]<n[min_pos]:
+            min_pos=j
+    temp=n[i]
+    n[i]=n[min_pos]
+    n[min_pos]=temp
+print(n)
