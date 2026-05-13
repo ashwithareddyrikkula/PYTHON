@@ -1,0 +1,8 @@
+n=int(input())
+m=int(input())
+print(n==m)#(eual to)if equal returns true else false
+print(n!=m)#(not equal to)if not eual return true else returns false
+print(n>m)#if greater returns true else returns false
+print(n<m)#if  smaller returns true else returns false
+print(n>=m)#if greater or equal return true else returns falsee
+print(n<=m)#if smaller or equal return true else returns false
