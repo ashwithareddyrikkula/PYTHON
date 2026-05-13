@@ -1,0 +1,5 @@
+n=int(input())
+b=int(input())
+print(n>b and n>=b)#returns true if both conditions are true 
+print(n<b or n>b)#returns true if any one of the conditons is true 
+print(n!=b)#returns thr reverse result if true returns false if false returns true
