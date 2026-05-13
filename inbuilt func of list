@@ -1,0 +1,70 @@
+n=list(map(int,input().split()))
+print(n)# prints list
+print(n[0])#return number in index 0
+print(n[2:])#returns num from index 2 to end of the list
+print(n[-5])#reverse indexing
+#takes both strings and integer in a single list
+p=["ram",1,2,3,"sita"]
+print(p)
+#inbuilt functions of a list
+#insert():used to insert an element at the specific position
+a=[1,2,3,4]
+a.insert(2,2)
+print(a)
+#removes():used to remove thr element from the list (first matching element)
+b=["ram","sita","laxman","lanka","hanuman"]
+b.remove(b[4])
+b.remove("ram")
+print(b)
+#count():used to count how many times a num or string is repeating and return it count
+c=[1,2,3,5,6,7,9]
+print(c)
+print(c.count(2))
+#append():used to add element at the end of the list 
+d=[9,0,8,8,6,5]
+d.append(5)
+print(d)
+#extend(): adds multiple elemnents into the list at the end
+e=[32,4,5,65,78,9,0]
+e.extend([4,5])
+print(e)
+#pop():removes the last element in thr list by default ,removes the elemnt by index
+f=[3, 4, 5, 6, 7,8,9]
+f.pop()
+print(f)
+#clear():used to remove all the elements in the list
+r=[9,5,6,7,3]
+r.clear()
+print(r)
+#sort():arrange the elements in ascending order
+p=[1,2,3,4,7,1,4,6]
+p.sort()
+print(p)
+#reverse(): revrese the elements in the list
+q=[2,3,4,5,6]
+q.reverse()
+print(q)
+#copy():used to copy the list into other list 
+i=[1,2,3,4,5,6]
+j=i.copy()
+print(j)
+#min():returns min of the list
+print(min(i))
+#max():max returns max of the list
+print(max(i))
+#sum():returns sum of the elements in the list
+print(sum(i))
+#enumerate():gives index+values
+a=["matha","bhavani","lakshmi"]
+for i,value in enumerate(a):
+    print(i,value)
+#zip(): combines two lists or more lists
+names=["ram","arjun","sita","Bheema","karuna"]
+marks=[80,90,70,30,20]
+result=list(zip(b,a))
+print(result)
+#any():atleast one non-zero return true
+q=[0,4,5,6,7]
+print(any(q))
+a#all():al must be non-zero
+print(all(q))
