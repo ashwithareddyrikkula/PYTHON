@@ -1,0 +1,5 @@
+s=int(input())
+arr=list(map(int,input().split()))
+lst=set(arr)
+duplicatesremoved=list(lst)
+print(duplicatesremoved)
